@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { MapPin } from 'lucide-react';
+import fachadaImg from '../assets/fachada.jpeg';
 
 export const LocationSection: React.FC = () => {
   const handleOpenDirections = () => {
@@ -56,8 +57,8 @@ export const LocationSection: React.FC = () => {
         {/* Storefront Image */}
         <div className="w-full h-32 md:h-48 rounded-xl overflow-hidden">
           <img 
-            src="/fachada.jpeg" 
-            alt="Fachada" 
+            src={fachadaImg} 
+            alt="Fachada Barbearia Seu Galdino" 
             className="w-full h-full object-cover"
           />
         </div>
