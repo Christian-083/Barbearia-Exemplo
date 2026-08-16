@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { MapPin } from 'lucide-react';
-import fachadaImg from '../assets/fachada.jpeg';
+import fachadaImg from '../assets/Fachada-certa.jpeg';
 
 export const LocationSection: React.FC = () => {
   const handleOpenDirections = () => {
